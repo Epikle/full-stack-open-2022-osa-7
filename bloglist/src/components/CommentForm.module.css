@@ -1,0 +1,13 @@
+.form div {
+  display: flex;
+  gap: 1rem;
+  padding-block: 1rem;
+}
+
+.form button {
+  padding: 0.25rem 0.75rem;
+}
+
+.form button:hover {
+  background-color: gold;
+}

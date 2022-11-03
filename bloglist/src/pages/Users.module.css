@@ -1,0 +1,54 @@
+.header-user,
+.header {
+  margin-block: 1rem;
+}
+
+.header-user span {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.user {
+  list-style: none;
+}
+
+.user li {
+  background-color: gray;
+  padding: 0.5rem 1rem;
+}
+
+.user li:nth-of-type(2n) {
+  background-color: darkgray;
+}
+
+.user li:hover {
+  background-color: goldenrod;
+}
+
+.user li a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.user li a:hover {
+  text-decoration: underline;
+}
+
+.users {
+  background-color: gray;
+  padding: 1rem;
+}
+
+.users tr td {
+  padding: 1rem;
+}
+
+.users a {
+  color: black;
+  text-decoration: none;
+}
+
+.users a:hover {
+  text-decoration: underline;
+}

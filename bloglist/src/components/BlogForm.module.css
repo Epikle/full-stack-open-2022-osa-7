@@ -1,0 +1,50 @@
+.new-blog {
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+.new-blog.open {
+  animation: new-blog 500ms ease forwards;
+}
+
+@keyframes new-blog {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.new-blog h2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.new-blog button {
+  background-color: rgb(193, 255, 101);
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+
+  transition: all 250ms ease-in-out;
+}
+
+.new-blog .cancel {
+  background-color: rgb(255, 85, 85);
+}
+
+.new-blog form {
+  margin-inline: auto;
+  width: max-content;
+  display: grid;
+  gap: 0.5rem;
+  text-transform: capitalize;
+}
+
+.new-blog form div {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
